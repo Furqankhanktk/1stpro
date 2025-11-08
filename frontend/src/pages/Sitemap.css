@@ -1,0 +1,25 @@
+/* Sitemap Page */
+.sitemap {
+  padding: 60px 0;
+}
+
+.sitemap-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sitemap-links li a {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 1.2rem;
+  transition: var(--transition);
+}
+
+.sitemap-links li a:hover {
+  color: var(--secondary);
+  padding-left: 10px;
+}

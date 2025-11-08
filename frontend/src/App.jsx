@@ -11,6 +11,7 @@ import AcademicsPage from './pages/AcademicsPage';
 import NewsPage from './pages/NewsPage';
 import EventsPage from './pages/EventsPage';
 import ContactPage from './pages/ContactPage';
+import Sitemap from './pages/Sitemap';
 
 // Admin components
 import AdminLogin from './components/AdminLogin';
@@ -40,6 +41,7 @@ function App() {
           <Route path="/news" element={<NewsPage />} />
           <Route path="/events" element={<EventsPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/sitemap" element={<Sitemap />} />
 
           {/* Admin Login Route */}
           <Route path="/securepanel396" element={<AdminLogin />} />

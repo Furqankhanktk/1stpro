@@ -19,13 +19,12 @@ const Footer = () => {
           <div className="footer-section">
             <h3>Quick Links</h3>
             <ul className="footer-links">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#academics">Academics</a></li>
-              <li><a href="#lms">LMS</a></li>
-              <li><a href="#news">News</a></li>
-              <li><a href="#events">Events</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/academics">Academics</a></li>
+              <li><a href="/news">News</a></li>
+              <li><a href="/events">Events</a></li>
+              <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
           <div className="footer-section">
@@ -36,6 +35,7 @@ const Footer = () => {
               <li><a href="#">Faculty & Staff</a></li>
               <li><a href="#">Calendar</a></li>
               <li><a href="#">Library</a></li>
+              <li><a href="/sitemap">Sitemap</a></li>
             </ul>
           </div>
         </div>
